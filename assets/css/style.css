@@ -36,6 +36,15 @@ main{
     width: 60%;
 }
 
+.w-50{
+    width: 50%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
 .row{
     display: flex;
     flex-direction: row;
@@ -179,3 +188,44 @@ main{
     }
 /* #endregion ITEMS */
 
+/* #region FOOTER */
+    footer{
+        background-color: #1A1A1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    footer h4{
+        font-size: 20px;
+    }
+
+    footer h4{
+        font-size: 16px;
+    }
+
+    footer p{
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+        padding: 20px 0 20px 0;
+    }
+
+    footer .container > :nth-child(2){
+        display: flex;
+        align-items: end;
+        
+    }
+
+    footer .footer-logos i{
+        margin: 5px;
+    }
+
+/* #endregion FOOTER */
